@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PanaderiaLaBella</title>
+<body bgcolor=#d9e0f6> <!--Color para el fondo-->
+
+<ul style = "color:#2e4557"> <!--Color a la informacion-->
+<!--Sirve para desorganizar la lista o informacion-->
+
+
+<h1>Panaderia</h1>
+<p>Bienvenido a aprender a trabajar en una panaderia y estudiar uno de nuestros cursos que ofrecemos y saber cual te gusta, <strong>Escoge alguno de los siguientes</strong>.</p>
+
+
+
+
+<ol style = "color:#0f0f0e">
+<strong>
+<li>Atencion al cliente</li><br><!--Lista por punto-->
+<li>Panadero</li><br>
+<li>Mesero</li><br>
+<li>Contador</li><br><br>
+</strong> </ol>
+<!--Se cierra desorganizado -->
+
+
+
+<!--Formulario-->
+<form action= "action_page.php">
+
+<!--texto-->
+<label for="fname">Primer Nombre: </label> <!--Colocar una pregunta-->
+<input type="text" id="fname" name="fname"><br><br>
+
+<!--texto-->
+<label for="lname">Primer Apellido:</label><!--Colocar una pregunta-->
+<input type="text" id="lname" name="lname"><br><br>
+
+<!--texto-->
+<label for="lname">Correo Electronico:</label><!--Colocar una pregunta-->
+<input type="text" id="lname" name="lname"><br><br>
+
+<!--numero-->
+<label for="lname">Numero Telefonico:</label><!--Colocar una pregunta-->
+<input type="number" id="lname" name="lname"><br><br>
+
+<!--texto-->
+<label for="lname">Ciudad:</label><!--Colocar una pregunta-->
+<input type="text" id="lname" name="lname"><br><br>
+
+<!--numero-->
+<label for="age">Edad: </label><!--Colocar un numero y requiere ponerlo -->
+<input type="number" id="" max="150" required><br><br>
+
+<!--Género-->
+<label for="gender">Género:</label> <!--Colocar una pregunta-->
+<select id="gender">
+<option>Masculino</option>
+<option>Femenino</option>
+</select><br><br>
+
+<!--opcion-->
+<label for="gender">Cursos:</label> <!--Colocar una pregunta-->
+<select id="gender">
+<option>Atencion al cliente</option>
+<option>Panadero</option>
+<option>Mesero</option>
+<option>Contador</option>
+</select><br><br>
+
+<!--Obervacion-->
+<label for="notes">Observaciones:</label>
+<textarea id="notes" required maxlength="100"></textarea><br><br>
+
+
+
+
+<input type="submit" value="Enviar">
+</form>
+
+<p>Click a enviar al boton para guardar al formulario
+
+
+
+</body>
+</html>
