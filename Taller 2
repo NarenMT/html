@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta-del-perfil</title>
+</head>
+
+<body>
+    <div class="titulo">
+
+<h1>Tarjeta de presentacion</h1>
+
+    </div>
+
+    </p>
+
+    <body>
+        <div class="nombre">
+    
+    <h1>Mi nombre es Pantheon</h1>
+    
+        </div>
+    
+        </p>
+
+    <p class="fondo1" id="primer-parrafo" name="parrafo"><i> Tiempo atrás, Atreus había albergado al Aspecto de la
+            Guerra en su interior contra su voluntad, pero sobrevivió al golpe que acabó con el poder divino y arrancó
+            estrellas del firmamento. Con el paso de los años, aprendió a aceptar el poder de su propia mortalidad y el
+            testarudo aguante que la acompaña. Ahora Atreus se opone a las fuerzas divinas en la piel de un nuevo
+            Pantheon y su voluntad de hierro espolea en el campo de batalla las armas del Aspecto caído..</i><br><br><br>
+        <img src="https://i.pinimg.com/originals/50/17/43/5017431c5ed2857a59afd9b6d0aa8fdc.png" alt="">
+    </p>
+
+
+
+
+    <style>
+        body {
+
+            background: rgb(3,3,3);
+background: linear-gradient(321deg, rgba(3,3,3,1) 9%, rgba(85,184,200,1) 100%);
+
+        }
+
+        #primer-parrafo {
+            background-color: rgb(97, 133, 133);
+            font-size: large;
+            font-family: 'Lato', sans-serif;
+            font-style: italic;
+            padding: 50px;
+            margin: 100px;
+        }
+
+        .fondo1 img {
+            width: 1530px;
+        }
+
+        .titulo {
+            
+            background-color: rgb(68, 117, 117);
+            height:  10vh;
+            margin: 3%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nombre {
+            
+            background-color: rgb(98, 143, 143);
+            height:  10vh;
+            margin: 15%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</body>
+
+</html>
