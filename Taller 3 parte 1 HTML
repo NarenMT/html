@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS GRID</title>
+</head>
+
+<body>
+    <div class="contenedor-principal">
+        <div class="item-1">header</div>
+        <div class="item-2">
+            menu
+            <div class="menu-item">Nomina</div>
+            <div class="menu-item">Felicitaciones</div>
+            <div class="menu-item">Reservas</div>
+            <div class="menu-item">Noticias</div>
+
+        </div>
+        <div class="item-3">
+            <div class="main-item" id="main-item-1">1</div>
+            <div class="main-item" id="main-item-2">2</div>
+            <div class="main-item" id="main-item-3">3</div>
+            <div class="main-item" id="main-item-4">4</div>
+            <div class="main-item" id="main-item-5">5</div>
+            <div class="main-item" id="main-item-6">6</div>
+            <div class="main-item" id="main-item-7">7</div>
+            <div class="main-item" id="main-item-8">8</div>
+            <div class="main-item" id="main-item-9">9</div>
+            <div class="main-item" id="main-item-10">10</div>
+            <div class="main-item" id="main-item-11">11</div>
+            <div class="main-item" id="main-item-12">12</div>
+            <div class="main-item" id="main-item-13">13</div>
+            <div class="main-item" id="main-item-14">14</div>
+            <div class="main-item" id="main-item-15">15</div>
+            <div class="main-item" id="main-item-16">16</div>
+        </div>
+        <div class="item-4">sidebar</div>
+        <div class="item-5">
+            <img src="https://imgv3.fotor.com/images/videoImage/mejorar-la-calidad-de-imagen-de-los-retratos-de-mujeres.jpg"
+            alt="">
+            <img src="https://imgv3.fotor.com/images/videoImage/mejorar-la-calidad-de-imagen-de-los-retratos-de-mujeres.jpg"
+            alt="">
+            <img src="https://imgv3.fotor.com/images/videoImage/mejorar-la-calidad-de-imagen-de-los-retratos-de-mujeres.jpg"
+            alt="">
+            <img src="https://imgv3.fotor.com/images/videoImage/mejorar-la-calidad-de-imagen-de-los-retratos-de-mujeres.jpg"
+            alt="">
+            <img src="https://imgv3.fotor.com/images/videoImage/mejorar-la-calidad-de-imagen-de-los-retratos-de-mujeres.jpg"
+            alt="">
+            <img src="https://imgv3.fotor.com/images/videoImage/mejorar-la-calidad-de-imagen-de-los-retratos-de-mujeres.jpg"
+            alt="">
+        </div>
+    </div>
+</body>
+
+</html>
