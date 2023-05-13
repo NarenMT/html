@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    -webkit-box-shadow: 10px 10px 46px 10px rgba(59,200,219,1);
+    -moz-box-shadow: 10px 10px 46px 10px rgba(59,200,219,1);
+    box-shadow: 10px 10px 46px 10px rgba(59,200,219,1);
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.pagina-contenido {
+    display: grid;
+    grid-template-areas:
+        "sidebar sidebar pensamiento pensamiento pensamiento"
+        "sidebar sidebar publicacion publicacion publicacion";
+    margin-top: 50px;
+    padding: 20px;
+    -webkit-box-shadow: 10px 10px 46px 10px rgba(59,200,219,1);
+    -moz-box-shadow: 10px 10px 46px 10px rgba(59,200,219,1);
+    box-shadow: 10px 10px 46px 10px rgba(59,200,219,1);
+}
+
+.pagina-contenido div {
+    -webkit-box-shadow: 10px 10px 46px 10px rgba(59,200,219,1);
+    -moz-box-shadow: 10px 10px 46px 10px rgba(59,200,219,1);
+    box-shadow: 10px 10px 46px 10px rgba(59,200,219,1);
+}
+
+.publicacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.publicacion div {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px dotted;
+    padding: 10px;
+}
+
+.navbar img {
+    width: 50px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 400px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .avatar,
+    menu {
+        display: none;
+    }
+
+    .pagina-contenido {
+        background-color: aquamarine;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .invertido {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+    /* .menu {
+        display: none;
+        } */
+
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.pensamiento {
+    grid-area: pensamiento;
+}
+
+.publicacion {
+    grid-area: publicacion
+}
+
+
+
+.sidebar,
+.pensamiento,
+.publicacion {
+    flex-basis: 20%;
+    margin: 20px;
+    padding: 20px;
+}
