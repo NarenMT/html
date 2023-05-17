@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Historia de Harry Potter</title>
+    <style>
+        body {
+
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgb(113,20,20);
+            background-image: url("https://e0.pxfuel.com/wallpapers/770/568/desktop-wallpaper-gryffindor-harry-potter-gryffindor-crest.jpg");
+            background-color: #333;
+            color: #f3d4d4; 
+            /* cambio de color de la letra */
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            background: rgb(40,167,173);
+background: linear-gradient(274deg, rgba(33, 2, 119, 0.589) 0%, rgba(255, 0, 21, 0.479) 100%);
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 5px;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            margin-bottom: 50px;
+        }
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .event {
+            background: rgb(11,3,154);
+background: linear-gradient(274deg, rgba(11,3,154,1) 19%, rgba(154,3,3,1) 100%);
+            width: 50%;
+            padding: 20px;
+            margin-bottom: 40px;
+            background-color: #4b0e0e;
+            border-radius: 5px;
+        }
+        .event h2 {
+            margin-top: 0;
+        }
+        .imagen1 {
+            width: 25%;
+            padding: 20px;
+            margin-bottom: 40px;
+            background-color: #0d081f98;
+            border-radius: 5px;
+        }
+        .imagen2 {
+            width: 70%;
+            padding: 20px;
+            margin-bottom: 40px;
+            background: rgb(40,53,173);
+background: linear-gradient(274deg, rgba(40,53,173,1) 1%, rgba(172,20,67,1) 26%, rgba(111,35,116,1) 31%, rgba(40,53,173,1) 91%, rgba(255,0,0,1) 100%);
+            border-radius: 5px;
+        }
+        .container {
+      text-align: center;
+      margin-top: 100px;
+    }
+    .boton {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #020000;
+      color: #c2bebe;
+      text-decoration: none;
+      border-radius: 15px;
+      font-size: 15px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Actor ( Daniel Radcliffe) Harry Potter</h1> 
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/LZVLR6SVNZHKPBX73JRNOVVYQA.jpg" 
+                 class="imagen1">
+    <div class="container">
+        <h2>La historia de Harry Potter</h2>
+        <p><h2>La serie de películas de Harry Potter está basada en los libros escritos por J.K. Rowling. A continuación, se presenta un resumen de cómo comienza y cómo termina la historia a lo largo de todas las películas:</h2></p>
+        <div class="timeline">
+            <div class="event">
+                <h1>Inicio de la historia</h1>
+                <p><h3>La historia comienza con Harry Potter, un niño huérfano que vive con sus crueles tíos y descubre que es un mago cuando recibe su carta de admisión a Hogwarts, la escuela de magia y hechicería.</h3></p>
+                <img src="https://www.estandarte.com/imagenes/fot_4578_gr.jpg" 
+                 class="event">
+            </div>
+            <div class="timeline">
+            <div class="event">
+                <h1>Gryffindor</h1>
+                <p><h3>La Casa de Gryffindor valora el coraje por encima de todo, pero también la osadía, el temple y la caballerosidad. Sus estudiantes son valientes, pero también muy imprudentes. Colores: Escarlata y oro. Miembros más famosos: Harry Potter, Ron Weasley, Hermione Granger, Albus Dumbledore</h3></p>
+                <img src="https://www.xtrafondos.com/wallpapers/vertical/insignias-de-harry-potter-gryffindor-slytherin-hufflepuff-y-ravenclaw-3547.jpg" 
+                 class="event">
+                <h1>Final de la historia</h1>
+                <p><h3>La historia llega a su clímax cuando Harry Potter y sus amigos se enfrentan al villano principal, Lord Voldemort. Después de una batalla épica, Harry logra derrotar a Voldemort y poner fin a su reinado de terror.</h3></p>
+                <img src="https://sm.ign.com/t/ign_latam/screenshot/default/harrypotter_vq5c.1200.jpg" 
+                class="imagen2">
+                <div class="container">
+                    <a class="boton" href="https://www.wizardingworld.com" target="_blank"><strong>Visita Wizarding World y descubre la magia de Hogwarts</strong></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
