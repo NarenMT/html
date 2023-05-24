@@ -1,0 +1,63 @@
+// export default function WelcomeMessage(){
+//   return( <p>Taller 1</p> 
+//   )
+// }
+export default function ProductCard() {
+  const productos = [
+    {
+      productosAlimentos: "Pasta",
+      precio: 3800,
+      descripcion: "Pasta 1000g",
+    },
+    {
+      productosAlimentos: "Cafe",
+      precio: 5200,
+      descripcion: "1000g",
+    },
+    {
+      productosAlimentos: "Huevos",
+      precio: 32000,
+      descripcion: "30 unidades de huevos AA",
+    },
+    {
+      productosAlimentos: "Chocolate Corona",
+      precio: 8900,
+      descripcion: "30 unidades",
+    },
+  ];
+
+  return (
+    <ul style={{ backgroundColor: 'darkblue' }}>
+      {/* a este le pedi ayuda del la IA porque no me salia el que queria con el que tengo abajo de const estilo = { color: "orange",} */}
+      {productos.map((elemento, i) => {
+        return <ListaDeAlimentos productos={elemento} lista={i} />;
+      })}
+    </ul>
+  );
+}
+
+const ListaDeAlimentos = (datos) => { //Le coloque color para que se vea poco mas bonito el codigo :)
+  const estilo = {
+    color: "orange",
+  };
+
+  return (
+    <li>
+      <p>
+        <br />
+        <p>Productos:{datos.lista}</p>
+        <br />
+        <strong style={estilo}>
+          {datos.productos.productosAlimentos}
+          <br />
+          {datos.productos.precio}
+          <br />
+          {datos.productos.descripcion}
+        </strong>
+        <h6>
+          <i>{"Marca colombiana"}</i>
+        </h6>
+      </p>
+    </li>
+  );
+};
